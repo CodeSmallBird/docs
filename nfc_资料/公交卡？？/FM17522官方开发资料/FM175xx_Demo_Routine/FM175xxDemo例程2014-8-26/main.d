@@ -1,0 +1,15 @@
+main.o: Application\main.c
+main.o: .\Driver\LPC11xx\LPC11xx.h
+main.o: .\Driver\LPC11xx\..\CM0\core_cm0.h
+main.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+main.o: .\Driver\LPC11xx\system_LPC11xx.h
+main.o: .\Driver\Chip\M0_PACK_V101_IO.h
+main.o: .\Driver\fm175xx.h
+main.o: .\Middle\type_a.h
+main.o: .\Middle\type_b.h
+main.o: .\Middle\Utility\Utility.h
+main.o: .\Middle\Utility\MyType.h
+main.o: .\Middle\mifare_card.h
+main.o: .\Driver\Uart.h
+main.o: .\Middle\Utility\Stdint.h
+main.o: D:\Keil\ARM\ARMCC\bin\..\include\string.h

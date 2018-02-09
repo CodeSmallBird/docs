@@ -1,0 +1,10 @@
+uart.o: Driver\Uart.c
+uart.o: C:\Keil4\ARM\Inc\NXP\LPC11xx\LPC11xx.h
+uart.o: C:\Keil4\ARM\CMSIS\Include\core_cm0.h
+uart.o: C:\Keil4\ARM\ARMCC\bin\..\include\stdint.h
+uart.o: C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h
+uart.o: C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h
+uart.o: C:\Keil4\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h
+uart.o: Driver\uart.h
+uart.o: .\Middle\Utility\Stdint.h
+uart.o: .\Middle\Utility\mytype.h

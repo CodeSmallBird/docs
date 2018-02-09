@@ -1,0 +1,30 @@
+*** Creating Trace Output File 'FM17520Demo.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc11xx.o"'
+### List of Objects: adding '"fm175xx.o"'
+### List of Objects: adding '"lpc11xx_spi.o"'
+### List of Objects: adding '"core_cm0.o"'
+### List of Objects: adding '"system_lpc11xx.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"mifare_card.o"'
+### List of Objects: adding '"type_a.o"'
+### List of Objects: adding '"utility.o"'
+### List of Objects: adding '"type_b.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 "startup_lpc11xx.o" "fm175xx.o" "lpc11xx_spi.o" "core_cm0.o" "system_lpc11xx.o" "uart.o" "mifare_card.o" "type_a.o" "utility.o" "type_b.o" "main.o" 
+--strict --scatter "FM17520Demo.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\FM17520Demo.map" -o FM17520Demo.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'FM17520Demo.axf'
+### ADS-LD Command File: 'FM17520Demo.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'FM17520Demo.lnp', Handle=0x00000D60
+### Writing '.lnp' file
+### ADS-LD Command file 'FM17520Demo.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

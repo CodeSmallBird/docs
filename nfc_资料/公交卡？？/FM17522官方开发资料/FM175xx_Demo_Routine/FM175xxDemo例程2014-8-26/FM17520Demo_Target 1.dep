@@ -1,0 +1,75 @@
+Dependencies for Project 'FM17520Demo', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC11xx.s)(0x53BA08C9)(--cpu Cortex-M0 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC11xx --list "startup_LPC11xx.lst" --xref -o "startup_LPC11xx.o" --depend "startup_LPC11xx.d")
+F (.\Driver\fm175xx.c)(0x53FC47E2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\Driver -I.\Middle -I.\Driver\Chip -I.\Driver\CM0 -I.\Driver\LPC11xx -I.\Middle\Utility -I.\Application -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC11xx -o "fm175xx.o" --omf_browse "fm175xx.crf" --depend "fm175xx.d")
+I (.\Driver\Chip\LPC11XX_SPI.h)(0x53B65A85)
+I (.\Middle\Utility\..\Utility\Utility.h)(0x510B9345)
+I (.\Middle\Utility\..\Utility\MyType.h)(0x53BA45BA)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (.\Driver\Chip\M0_PACK_V101_IO.h)(0x53EC5F59)
+I (.\Driver\LPC11xx\LPC11xx.h)(0x510B9344)
+I (.\Driver\LPC11xx\..\CM0\core_cm0.h)(0x510B9343)
+I (.\Driver\LPC11xx\system_LPC11xx.h)(0x510B9344)
+I (Driver\fm175xx.h)(0x53C6439F)
+I (D:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+F (.\Driver\Chip\LPC11XX_SPI.c)(0x53BCBD75)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\Driver -I.\Middle -I.\Driver\Chip -I.\Driver\CM0 -I.\Driver\LPC11xx -I.\Middle\Utility -I.\Application -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC11xx -o "lpc11xx_spi.o" --omf_browse "lpc11xx_spi.crf" --depend "lpc11xx_spi.d")
+I (Driver\Chip\LPC11XX_SPI.h)(0x53B65A85)
+I (.\Middle\Utility\..\Utility\Utility.h)(0x510B9345)
+I (.\Middle\Utility\..\Utility\MyType.h)(0x53BA45BA)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (Driver\Chip\M0_PACK_V101_IO.h)(0x53EC5F59)
+I (.\Driver\LPC11xx\LPC11xx.h)(0x510B9344)
+I (.\Driver\LPC11xx\..\CM0\core_cm0.h)(0x510B9343)
+I (.\Driver\LPC11xx\system_LPC11xx.h)(0x510B9344)
+F (.\Driver\CM0\core_cm0.c)(0x510B9343)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\Driver -I.\Middle -I.\Driver\Chip -I.\Driver\CM0 -I.\Driver\LPC11xx -I.\Middle\Utility -I.\Application -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC11xx -o "core_cm0.o" --omf_browse "core_cm0.crf" --depend "core_cm0.d")
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+F (.\Driver\LPC11xx\system_LPC11xx.c)(0x51403E07)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\Driver -I.\Middle -I.\Driver\Chip -I.\Driver\CM0 -I.\Driver\LPC11xx -I.\Middle\Utility -I.\Application -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC11xx -o "system_lpc11xx.o" --omf_browse "system_lpc11xx.crf" --depend "system_lpc11xx.d")
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (Driver\LPC11xx\LPC11xx.h)(0x510B9344)
+I (Driver\LPC11xx\..\CM0\core_cm0.h)(0x510B9343)
+I (Driver\LPC11xx\system_LPC11xx.h)(0x510B9344)
+F (.\Driver\Uart.c)(0x53C3AA3A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\Driver -I.\Middle -I.\Driver\Chip -I.\Driver\CM0 -I.\Driver\LPC11xx -I.\Middle\Utility -I.\Application -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC11xx -o "uart.o" --omf_browse "uart.crf" --depend "uart.d")
+I (.\Driver\LPC11xx\LPC11xx.h)(0x510B9344)
+I (.\Driver\LPC11xx\..\CM0\core_cm0.h)(0x510B9343)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (.\Driver\LPC11xx\system_LPC11xx.h)(0x510B9344)
+I (Driver\uart.h)(0x53C3A84F)
+I (.\Middle\Utility\Stdint.h)(0x510B9345)
+I (.\Middle\Utility\mytype.h)(0x53BA45BA)
+F (.\Middle\mifare_card.c)(0x53BBBC64)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\Driver -I.\Middle -I.\Driver\Chip -I.\Driver\CM0 -I.\Driver\LPC11xx -I.\Middle\Utility -I.\Application -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC11xx -o "mifare_card.o" --omf_browse "mifare_card.crf" --depend "mifare_card.d")
+I (Middle\mifare_card.h)(0x53167556)
+I (.\Driver\fm175xx.h)(0x53C6439F)
+I (.\Middle\Utility\Utility.h)(0x510B9345)
+I (.\Middle\Utility\MyType.h)(0x53BA45BA)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+F (.\Middle\type_a.c)(0x53BB502D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\Driver -I.\Middle -I.\Driver\Chip -I.\Driver\CM0 -I.\Driver\LPC11xx -I.\Middle\Utility -I.\Application -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC11xx -o "type_a.o" --omf_browse "type_a.crf" --depend "type_a.d")
+I (.\Driver\fm175xx.h)(0x53C6439F)
+I (Middle\type_a.h)(0x53B65655)
+I (.\Middle\Utility\Utility.h)(0x510B9345)
+I (.\Middle\Utility\MyType.h)(0x53BA45BA)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+F (.\Middle\Utility\Utility.c)(0x53D30423)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\Driver -I.\Middle -I.\Driver\Chip -I.\Driver\CM0 -I.\Driver\LPC11xx -I.\Middle\Utility -I.\Application -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC11xx -o "utility.o" --omf_browse "utility.crf" --depend "utility.d")
+I (Middle\Utility\Utility.h)(0x510B9345)
+I (Middle\Utility\MyType.h)(0x53BA45BA)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+F (.\Middle\type_b.c)(0x53FC47E2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\Driver -I.\Middle -I.\Driver\Chip -I.\Driver\CM0 -I.\Driver\LPC11xx -I.\Middle\Utility -I.\Application -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC11xx -o "type_b.o" --omf_browse "type_b.crf" --depend "type_b.d")
+I (.\Driver\fm175xx.h)(0x53C6439F)
+I (Middle\type_b.h)(0x53C38169)
+I (.\Middle\Utility\Utility.h)(0x510B9345)
+I (.\Middle\Utility\MyType.h)(0x53BA45BA)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (D:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+F (.\Application\main.c)(0x53FC4CD5)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\Driver -I.\Middle -I.\Driver\Chip -I.\Driver\CM0 -I.\Driver\LPC11xx -I.\Middle\Utility -I.\Application -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC11xx -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (.\Driver\LPC11xx\LPC11xx.h)(0x510B9344)
+I (.\Driver\LPC11xx\..\CM0\core_cm0.h)(0x510B9343)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (.\Driver\LPC11xx\system_LPC11xx.h)(0x510B9344)
+I (.\Driver\Chip\M0_PACK_V101_IO.h)(0x53EC5F59)
+I (.\Driver\fm175xx.h)(0x53C6439F)
+I (.\Middle\type_a.h)(0x53B65655)
+I (.\Middle\type_b.h)(0x53C38169)
+I (.\Middle\Utility\Utility.h)(0x510B9345)
+I (.\Middle\Utility\MyType.h)(0x53BA45BA)
+I (.\Middle\mifare_card.h)(0x53167556)
+I (.\Driver\Uart.h)(0x53C3A84F)
+I (.\Middle\Utility\Stdint.h)(0x510B9345)
+I (D:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)

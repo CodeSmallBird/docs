@@ -1,0 +1,5 @@
+--cpu Cortex-M0 "startup_lpc11xx.o" "fm175xx.o" "lpc11xx_spi.o" "core_cm0.o" "system_lpc11xx.o" "uart.o" "mifare_card.o" "type_a.o" "utility.o" "type_b.o" "main.o" 
+--strict --scatter "FM175xxDemo.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\FM175xxDemo.map" -o FM175xxDemo.axf

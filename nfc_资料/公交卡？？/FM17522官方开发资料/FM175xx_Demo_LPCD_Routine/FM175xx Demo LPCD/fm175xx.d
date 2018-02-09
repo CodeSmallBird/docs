@@ -1,0 +1,13 @@
+fm175xx.o: Driver\fm175xx.c
+fm175xx.o: .\Driver\Chip\LPC11XX_SPI.h
+fm175xx.o: .\Middle\Utility\..\Utility\Utility.h
+fm175xx.o: .\Middle\Utility\..\Utility\MyType.h
+fm175xx.o: C:\Keil4\ARM\ARMCC\bin\..\include\stdint.h
+fm175xx.o: .\Driver\Chip\M0_PACK_V101_IO.h
+fm175xx.o: C:\Keil4\ARM\Inc\NXP\LPC11xx\LPC11xx.h
+fm175xx.o: C:\Keil4\ARM\CMSIS\Include\core_cm0.h
+fm175xx.o: C:\Keil4\ARM\CMSIS\Include\core_cmInstr.h
+fm175xx.o: C:\Keil4\ARM\CMSIS\Include\core_cmFunc.h
+fm175xx.o: C:\Keil4\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h
+fm175xx.o: Driver\fm175xx.h
+fm175xx.o: C:\Keil4\ARM\ARMCC\bin\..\include\string.h

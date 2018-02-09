@@ -1,0 +1,32 @@
+*** Creating Trace Output File 'LPCDTest.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc11xx.o"'
+### List of Objects: adding '"fm175xx.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"system_lpc11xx.o"'
+### List of Objects: adding '"core_cm0.o"'
+### List of Objects: adding '"lpc11xx_spi.o"'
+### List of Objects: adding '"mifare_card.o"'
+### List of Objects: adding '"type_a.o"'
+### List of Objects: adding '"type_b.o"'
+### List of Objects: adding '"utility.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"lpcd_api.o"'
+### List of Objects: adding '"lpcd_regctrl.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 "startup_lpc11xx.o" "fm175xx.o" "uart.o" "system_lpc11xx.o" "core_cm0.o" "lpc11xx_spi.o" "mifare_card.o" "type_a.o" "type_b.o" "utility.o" "main.o" "lpcd_api.o" "lpcd_regctrl.o" 
+--strict --scatter "LPCDTest.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LPCDTest.map" -o LPCDTest.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'LPCDTest.axf'
+### ADS-LD Command File: 'LPCDTest.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'LPCDTest.lnp', Handle=0x00000404
+### Writing '.lnp' file
+### ADS-LD Command file 'LPCDTest.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

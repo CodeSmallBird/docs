@@ -1,0 +1,9 @@
+lpc11xx_spi.o: Driver\Chip\LPC11XX_SPI.c
+lpc11xx_spi.o: Driver\Chip\LPC11XX_SPI.h
+lpc11xx_spi.o: .\Middle\Utility\..\Utility\Utility.h
+lpc11xx_spi.o: .\Middle\Utility\..\Utility\MyType.h
+lpc11xx_spi.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+lpc11xx_spi.o: Driver\Chip\M0_PACK_V101_IO.h
+lpc11xx_spi.o: .\Driver\LPC11xx\LPC11xx.h
+lpc11xx_spi.o: .\Driver\LPC11xx\..\CM0\core_cm0.h
+lpc11xx_spi.o: .\Driver\LPC11xx\system_LPC11xx.h
